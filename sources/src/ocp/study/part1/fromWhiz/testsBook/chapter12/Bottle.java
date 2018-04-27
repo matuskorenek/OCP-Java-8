@@ -25,5 +25,6 @@ public class Bottle {
             Bottle bottle = new Bottle();
             Ship q = new Ship();
             System.out.print(q.getSail().getHeight());
+            System.out.print(q.getShortSail());
       }
 }
