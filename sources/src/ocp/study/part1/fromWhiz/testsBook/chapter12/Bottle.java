@@ -15,6 +15,11 @@ public class Bottle {
             public Sail getSail() {
                   return Sail.TALL;
             }
+            
+            public Sail getShortSail() {
+                  return Sail.SHORT;
+            }
+                  
       }
       public static void main(String ...unused) {
             Bottle bottle = new Bottle();
